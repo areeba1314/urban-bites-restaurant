@@ -12,7 +12,7 @@ import drinkMango from "@/assets/drink-mango.jpg";
 import drinkLatte from "@/assets/drink-latte.jpg";
 
 export const restaurant = {
-  name: "Urban Bites",
+  name: "Urban Bites Karachi",
   tagline: "Bold flavours. Warm nights. Your table in the city.",
 };
 
@@ -103,7 +103,7 @@ export function formatPrice(price: number) {
 
 /** DEMO contact details — replace before going live. */
 export const contactInfo = {
-  address: "Plot 24, MM Alam Road, Gulberg III, Lahore (demo address)",
+  address: "Plot 24, MM Alam Road, Gulberg III, Karachi (demo address)",
   phone: "+92 300 0000000 (demo)",
   email: "hello@urbanbites.example (demo)",
 };
