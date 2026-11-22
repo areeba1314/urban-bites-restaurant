@@ -28,3 +28,9 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Project rules
+
+- Editable restaurant content (menu items, prices, contact details, hours, social links) lives in `src/data/restaurant.ts`; components only render it — keeps edits in one place for non-developers working in VS Code.
+- The site is a single scrolling page (`src/routes/index.tsx`) composed of section components in `src/components/site/`, linked with in-page anchors — the owner asked for no extra pages.
+- Reservation validation rules live in `src/lib/reservation.ts` (zod) and are covered by `src/test/reservation.test.ts`; the form has no backend yet and only confirms on screen.
