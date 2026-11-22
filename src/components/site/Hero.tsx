@@ -19,7 +19,7 @@ export function Hero() {
 
       <div className="container-page pt-24 pb-16">
         <div className="max-w-2xl">
-          <p className="eyebrow animate-fade-up">Modern kitchen · Lahore</p>
+          <p className="eyebrow animate-fade-up">Modern kitchen · Karachi</p>
           <h1 className="mt-5 animate-fade-up text-5xl font-semibold leading-[1.02] [animation-delay:120ms] sm:text-6xl lg:text-8xl">
             {restaurant.name}
           </h1>
